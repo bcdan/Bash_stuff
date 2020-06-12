@@ -1,5 +1,4 @@
 #!/bin/bash
-#Shmuel Fainberg 307911867 Dan Levy 307911750
 function longest_word_in_song {
 text=`cat "$1" | tail -n +2 | tr -cs 'A-Za-z' ' '`
 max_len=0;
